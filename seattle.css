@@ -1,0 +1,94 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+</style>
+
+
+.container{
+    margin-top: 60px;
+   
+}
+
+.text-bg-primary {
+    color: #ffffff!important;
+   
+    
+}
+.card-header {
+    padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+    margin-bottom: 0;
+    color: white;
+    background-color: #0d6efd;
+    border-bottom: rgb(87, 92, 98);
+
+}
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: rgb(218, 42, 42);
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: lavender !important;
+}
+.btn-outline-success {
+    --bs-btn-color: #af87bd61 !important;
+    --bs-btn-border-color: #9098d8 !important ; 
+    --bs-btn-hover-color: #7d3ccf !important;
+    --bs-btn-hover-bg: #9098d8 !important;
+    /* --bs-btn-hover-border-color: #198754; */
+    /* --bs-btn-focus-shadow-rgb: 25,135,84; */
+    /* --bs-btn-active-color: #fff; */
+    /* --bs-btn-active-bg: #198754; */
+    /* --bs-btn-active-border-color: #198754; */
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    /* --bs-btn-disabled-color: #198754; */
+    /* --bs-btn-disabled-bg: transparent; */
+    /* --bs-btn-disabled-border-color: #523265; */
+    /* --bs-gradient: none; */
+}
+body{
+    background-color: #9098d8;
+    font-family: 'Roboto Mono', monospace !important;
+}
+.snow{
+    background: url(snow.png);
+    height: 100vh;
+    
+    background-repeat: repeat ;
+    animation: snow 2s linear infinite;
+
+}
+@keyframes snow{
+    0%{
+        background-position: 50px 50px;
+    }
+    20%{
+        background-position: 100px 100px;
+    }
+    30%{
+        background-position: 150px 150px;
+    }
+    60%{
+        background-position: 200px 200px;
+    }
+    80%{
+        background-position: 250px 250px;
+    }
+    100%{
+        background-position: 300px 300px;
+     }
+}
+
+.login{
+    margin-left: 50px;
+    
+}
+.btn-log{
+    border-radius: 4px;
+    border-color: #9098d8;
+}
+
+

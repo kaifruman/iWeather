@@ -1,0 +1,53 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+</style>
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.4rem;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 2.4rem;
+}
+body{
+    background-color: lavender;
+}
+.snow{
+    background: url(snow.png);
+    height: 100vh;
+    
+    background-repeat: repeat ;
+    animation: snow 2s linear infinite;
+
+}
+@keyframes snow{
+    0%{
+        background-position: 50px 50px;
+    }
+    20%{
+        background-position: 100px 100px;
+    }
+    30%{
+        background-position: 150px 150px;
+    }
+    60%{
+        background-position: 200px 200px;
+    }
+    80%{
+        background-position: 250px 250px;
+    }
+    100%{
+        background-position: 300px 300px;
+     }
+}
